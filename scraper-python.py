@@ -77,7 +77,7 @@ def scrape_website(start_url):
                     to_visit.append((full_url, depth + 1))
 
     # Write results to CSV
-    output_file = "emails2.csv"
+    output_file = "emails.csv"
     if found_emails:
         with open(output_file, "w", newline='', encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
