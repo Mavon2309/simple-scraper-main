@@ -35,6 +35,5 @@ To run the script, you just need to use:
 ```bash
 python scraper.py
 ```
-```
 
 This will ensure that all of your code snippets are properly formatted in code blocks!
